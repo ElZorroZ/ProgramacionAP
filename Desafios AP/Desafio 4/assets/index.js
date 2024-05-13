@@ -5,6 +5,7 @@ const productos=["Coca Cola","Libro","Thompson","Tanque M4 Sherman","Volkswagen 
     }
     productos.pop()
     console.clear()
+    
     for(let index=0; index<=productos.length; index++){
         console.log(`${index}:${productos[index]}`)
     
